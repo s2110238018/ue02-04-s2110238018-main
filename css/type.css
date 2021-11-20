@@ -1,0 +1,133 @@
+.whiteType {
+    color: white
+}
+
+
+/*-------------------------homescreen----------------------*/
+
+#LukasGerstmayr {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 142px;
+}
+
+#Photographer {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+/*-------------------------navigation bar-------------------------*/
+#seeMyWorkButtonLink {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+#aboutMeButton {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+#myWorkButton {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+#contactMeButton {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+#myDataButton {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+/*----------------------------------------about me--------------------------------*/
+#aboutMeText {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+#aboutMeHead {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+/*-------------------------------------my work-----------------------------------*/
+#myWorkAndPassion {
+    margin: 0;
+    font-family: Fredericka the Great,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 176px;
+}
+
+#smallTextMyWork {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 118px;
+}
+
+/*---------------------------------contact me--------------------------------*/
+    #contactMe {
+        font-family: Fredericka the Great, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 140px;
+        line-height: 120px;
+    }
+#contactMeFields {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 59px;
+}
+
+/*----------------------------------my data---------------------------------------*/
+#myDataAddress {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+#findMe {
+    font-family: Fredericka the Great, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+
+

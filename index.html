@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lukas Gerstmayr Photography</title>
+    <!---------------------css sheets----------------------------->
+    <link href="css/layout.css/" rel="stylesheet" type="text/css">
+    <link href="css/color.css/" rel="stylesheet" type="text/css">
+    <link href="css/type.css" rel="stylesheet" type="text/css">
+    <link href="css/images.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="header">
+    <section id="home">
+        <div id="navigation">
+            <nav> <!---------------------navigation bar--------------------------->
+                <a id="aboutMeButton" href="#aboutMe">about me</a>
+                <a id="myWorkButton" href="#myWork">my work</a>
+                <a id="contactMeButton" href="#contact">contact</a>
+                <a id="myDataButton" href="#myData">my data</a>
+            </nav></div>
+            <div class="title">
+                <div id="LukasGerstmayr">LUKAS<br>GERSTMAYR</div>
+                <div id="Photographer">PHOTOGRAPHER</div>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+
+    <!-- about me -->
+    <section id="aboutMe">
+
+        <div id="aboutMeText">
+            <br><br>
+            <div id="aboutMeHead">some FACTS about me:</div>
+            <br><br>
+            >>Name: Lukas Gerstmayr<br>
+            >>Born in Steyr, Upper Aust<span class="aboutMeTextWhite">ria</span><br>
+            >>Since one year hobby ph<span class="aboutMeTextWhite">otographer</span><br>
+            >>Since 10/2021 student at <span class="aboutMeTextWhite">FH Hagenberg</span>
+        </div>
+        <br>
+    </section>
+
+    <!-- my work -->
+
+    <section id="myWork">
+        <br><br><br>
+        <div id="myWorkAndPassion">MY WORK and PASSION</div>
+        <br><br><br>
+        <div id="smallTextMyWork">you can book me for your weeding or anything else... be creative!</div>
+    </section>
+
+    <!-- contact -->
+
+    <section>
+        <div id="contactMeFields">
+            <section id="contact" class="Section">
+                <div class="GridContainer GridContainer--contact">
+                    <div class="Content">
+                        Contact me:
+                    </div>
+                    <div id="contactData">
+                        <form action="mailto:lukas.gerstmayr1994@gmail.com" method="post" enctype="text/plain"
+                              class="ContactForm">
+                            <div class="Input">
+                                <label for="firstname" class="Input-label">First name</label>
+                                <input type="text" name="firstname" id="firstname" title="First name"
+                                       placeholder="First Name" required="" class="Input-field">
+                            </div>
+                            <div class="Input">
+                                <label for="lastname" class="Input-label">Last name</label>
+                                <input type="text" name="lastname" id="lastname" title="Last name"
+                                       placeholder="Last Name" required="" class="Input-field">
+                            </div>
+                            <div class="Input">
+                                <label for="email" class="Input-label">E-mail</label>
+                                <input type="email" name="email" id="email" title="E-mail"
+                                       placeholder="john.doe@mail.com" class="Input-field">
+                            </div>
+                            <div class="Input">
+                                <label for="request" class="Input-label">Request</label>
+                                <input type="text" name="request" id="request" title="request" placeholder="Request"
+                                       class="Input-field">
+                            </div>
+                            <div class="Input Input--subject">
+                                <label for="subject" class="Input-label">Phone Number</label>
+                                <input type="text" name="subject" id="subject" title="Subject"
+                                       placeholder="Phone Number" class="Input-field">
+                            </div>
+                            <div class="Input Input--message">
+                                <label for="comment" class="Input-label">Message</label>
+                                <textarea name="comment" id="comment" rows="3" title="Comment"
+                                          placeholder="Type in your message:" required=""
+                                          class="Input-field u-resizeVertical"></textarea>
+                            </div>
+
+                            <button name="send" type="submit" title="Send" class="Button">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+</main>
+
+<!-----------------------------------------footer-------------------------------------------------------->
+
+
+<!-----------------------------------------my data--------------------------->
+<footer id="myData">
+    <div id="backButton">
+        <a href="#home">
+            <img src="css/assets/pictures/backArrow.png" width="150" height="150" alt="Back Arrow">
+        </a>
+    </div>
+    <br>
+    <div id="myDataAddress">
+        Lukas Gerstmayr<br>
+        Stolzweg 1<br>
+        4492 Hofkirchen<br>
+        AUSTRIA<br>
+        E-Mail: lukas.gerstmayr1994@gmail.com<br><br>
+        you also find me on:
+    </div>
+
+    <div id="findMe"></div>
+    <address>
+        <div id="socialMediaButtons">
+            <div id="instagramButton"><a href="https://www.instagram.com/">
+                <img src="css/assets/pictures/instagram.png" width="150" height="150" alt="Instagram Logo">
+            </a></div>
+            <div id="youtubeButton"><a href="https://www.youtube.com/">
+                <img src="css/assets/pictures/youtube.png" width="150" height="150" alt="Youtube Logo">
+            </a></div>
+            <div id="facebookButton"><a href="https://www.facebook.com/">
+                <img src="css/assets/pictures/facebook.png" width="150" height="150" alt="Facebook Logo">
+            </a></div>
+        </div>
+    </address>
+</footer>
+</body>
+</html>

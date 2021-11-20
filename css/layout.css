@@ -1,0 +1,165 @@
+/*--------------------------navigation bar----------------------------*/
+nav {
+    float: right;
+    margin-top: 70px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+#aboutMeButton {
+    background: rgba(196, 196, 196, 0.4);
+    border: 2px solid #472D2D;
+    box-sizing: border-box;
+}
+
+#myWorkButton {
+    margin-left: 50px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border: 2px solid #472D2D;
+    box-sizing: border-box;
+}
+
+
+
+#contactMeButton {
+    margin-left: 50px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border: 2px solid #472D2D;
+    box-sizing: border-box;
+}
+
+#myDataButton {
+    margin-left: 50px;
+    margin-right: 30px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border: 2px solid #472D2D;
+    box-sizing: border-box;
+
+}
+
+/*----------------------------homescreen---------------------*/
+
+
+
+/*----------------------------------about me-----------------------------*/
+#aboutMeText {
+    text-align: center;
+}
+
+/*----------------------------my work---------------------*/
+#smallTextMyWork {
+    background: rgba(224, 181, 181, 0.75);
+    text-align: center;
+}
+
+/*------------------------------contact me--------------------------*/
+
+
+.GridContainer--contact {
+    padding: 4em 0;
+    grid-template-rows: repeat(3, auto);
+}
+
+.Content {
+    grid-area: content;
+}
+
+.ContactForm {
+    grid-area: contactform;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+        "firstname lastname"
+        "email request"
+        "phone number message"
+        "send";
+    grid-gap: 1em;
+    margin-top: 1em;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-label {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.Input-field {
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px;
+    padding: 1rem;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+/*------------------------------------footer-----------------------------------------*/
+
+/*---------------mydata---------------*/
+#myDataAddress {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#backButton {
+    position: relative;
+    margin: auto;
+    width: 10vw;
+    height: 10vh;
+    padding-top: 50px;
+}
+
+#findMe {
+    position: relative;
+}
+
+#aboutMe {
+    border: black;
+}
+
+#socialMediaButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#myWorkAndPassion {
+    text-align: center;
+    background: rgba(224, 181, 181, 0.50);
+}
+.Content {
+    text-align: center;
+    font-size: 58px;
+}
+#navigation {
+    width: 100%;
+    height: 200px;
+}
+#LukasGerstmayr {
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 8%;
+}
+#Photographer {
+    text-align: right;
+    padding-right: 10%;
+    margin-bottom: 15%;
+}
